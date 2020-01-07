@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/flower"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginVertical="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textAlignment="center"
+        android:paddingVertical="70dp"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/zero"/>
+
+    <Button
+        android:id="@+id/logButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="20dp"
+        android:background="#D3D3D3"
+        android:text="Login"
+        android:hapticFeedbackEnabled="true" />
+
+    <Button
+        android:id="@+id/regButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="20dp"
+        android:background="#D3D3D3"
+        android:hapticFeedbackEnabled="true"
+        android:text="Register" />
+
+</LinearLayout>
